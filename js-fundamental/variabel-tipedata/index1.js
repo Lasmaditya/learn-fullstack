@@ -3,33 +3,33 @@
 // console.log('Hello World');
 
 //Luas Lingkaran
-var pi = 3.14;
-var r = 11;
-var luas = pi * r * r;
-// console.log(Math.floor(luas));
+// var pi = 3.14;
+// var r = 11;
+// var luas = pi * r * r;
+// // console.log(Math.floor(luas));
 
 
 
-//Study Case: Buatlah algoritma, pseudocode, dan codingan keliling persegi panjang
+// //Study Case: Buatlah algoritma, pseudocode, dan codingan keliling persegi panjang
 
-/* Algoritma
-1. Tentukan rumus kelilingPersegiPanjang: (2 * panjang) + (2 * Lebar)
-2. Buat variabel panjang
-2. Buat variabel lebar
-3. Buat variabel kelilingPersegiPanjang
-4. Isi kelilingPersegiPanjang dengan rumus (2 MUL panjang) + (2 MUL lebar)
-5. Cetak kelilingPersegiPanjang
+// /* Algoritma
+// 1. Tentukan rumus kelilingPersegiPanjang: (2 * panjang) + (2 * Lebar)
+// 2. Buat variabel panjang
+// 2. Buat variabel lebar
+// 3. Buat variabel kelilingPersegiPanjang
+// 4. Isi kelilingPersegiPanjang dengan rumus (2 MUL panjang) + (2 MUL lebar)
+// 5. Cetak kelilingPersegiPanjang
 
-Pseudocode
-STORE panjang WITH number
-STORE lebar WITH number
-STORE kelilingPersegiPanjang WITH (2 MUL panjang) ADD (2 MUL lebar)
-PRINT kelilingPersegiPanjang*/
+// Pseudocode
+// STORE panjang WITH number
+// STORE lebar WITH number
+// STORE kelilingPersegiPanjang WITH (2 MUL panjang) ADD (2 MUL lebar)
+// PRINT kelilingPersegiPanjang*/
 
-//Coding
-var panjang = 927;
-var lebar = 64;
-var kelilingPersegiPanjang = (2 * panjang) + (2 * lebar);
+// //Coding
+// var panjang = 927;
+// var lebar = 64;
+// var kelilingPersegiPanjang = (2 * panjang) + (2 * lebar);
 // console.log(Math.floor(kelilingPersegiPanjang));
 
 
@@ -55,8 +55,8 @@ PRINT luasPermukaanTabung
 */
 
 //Coding
-var t = 10;
-var pi = 3.14;
-var r = 5;
-var luasPermukaanTabung = ((2 * pi * r) * t) + (2 * (pi * r * r));
-console.log(Math.floor(luasPermukaanTabung));
+// var t = 10;
+// var pi = 3.14;
+// var r = 5;
+// var luasPermukaanTabung = ((2 * pi * r) * t) + (2 * (pi * r * r));
+// console.log(Math.floor(luasPermukaanTabung));

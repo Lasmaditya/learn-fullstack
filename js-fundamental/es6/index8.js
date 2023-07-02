@@ -1,7 +1,7 @@
 //Template Literal
-let kata1 = "sudah";
-let kata2 = "makan";
-let kata3 = "siang";
+// let kata1 = "sudah";
+// let kata2 = "makan";
+// let kata3 = "siang";
 
 //ES5
 // console.log(kata1 + " " + kata2 + " " + kata3);
@@ -11,7 +11,7 @@ let kata3 = "siang";
 
 
 //High-Order Function
-let scores = [1, 2, 3, 4, 5, 6, 7];
+// let scores = [1, 2, 3, 4, 5, 6, 7];
 
 // //.forEach
 
@@ -44,13 +44,25 @@ let scores = [1, 2, 3, 4, 5, 6, 7];
 
 //.map
 
+// //ES5
+// let temporary = [];
+// for (i = 0; i < scores.length; i++){
+//     temporary.push(scores[i] ** 2);
+// }
+// console.log(temporary);
+
+// //ES6
+// scores = scores.map((score) => score ** 2);
+// console.log(scores);
+
+//Desructuring: Array & Object
+let items = ["Envy Apple USA", 150000, true];
+
 //ES5
-let temporary = [];
-for (i = 0; i < scores.length; i++){
-    temporary.push(scores[i] ** 2);
-}
-console.log(temporary);
+// let name = items[0];
+// let price = items[1];
+// let isAvailable = items[2];
 
 //ES6
-scores = scores.map((score) => score ** 2);
-console.log(scores);
+let [name, price, isAvailable] = items;
+console.log(name, price, isAvailable);

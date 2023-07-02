@@ -107,21 +107,39 @@
 
 //Study Case 7
 
-var number = 5;
-var temp = "";
+// var number = 5;
+// var temp = "";
 
-for (var i = 0; i < number; i++) {
-    for (var j = 0; j < number; j++) {
-        if (i === 0 || i === number - 1) {
-            temp = temp + "#";
-        } else {
-            if (j === 0 || j === number - 1) {
-                temp = temp + "#";
-            } else {
-                temp = temp + " ";
-            }
-        }
+// for (var i = 0; i < number; i++) {
+//     for (var j = 0; j < number; j++) {
+//         if (i === 0 || i === number - 1) {
+//             temp = temp + "#";
+//         } else {
+//             if (j === 0 || j === number - 1) {
+//                 temp = temp + "#";
+//             } else {
+//                 temp = temp + " ";
+//             }
+//         }
+//     }
+//     console.log(temp);
+//     temp = "";
+// }
+
+
+  const higherOrderFunc = param => {
+    param();
+    return `I just invoked ${param.name} as a callback function!`
+  }
+   
+  const anotherFunc = () => {
+    return 'I\'m being invoked by the higher-order function!';
+  }
+   
+  higherOrderFunc(anotherFunc);
+
+  higherOrderFunc(() => {
+    for (let i = 0; i <= 10; i++){
+      console.log(i);
     }
-    console.log(temp);
-    temp = "";
-}
+  });
